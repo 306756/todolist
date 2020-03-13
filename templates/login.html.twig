@@ -6,9 +6,40 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    <h1> BRANCH ANDREW </h1>
+    <!-- Header de notre site -->
+    <header class="col-12 text-center pt-5 pb-5">
+        <h1 class="title pt-3 pb-3">TodoList</h1>
+    </header>
+
+    <!-- Formulaire de connexion -->
+    <div class="m-auto col-10">
+        <h1 id="login" class="col-12 mb-4">LOGIN</h1>
+        <form>
+            <label for="email" class="col-12 justify-content-left">Email</label>
+            <input type="text" name="email" placeholder="Entrez votre adresse email" class="col-12 mb-4" required>
+
+            <label for="password" class="col-12">Password</label>
+            <input type="password" name="password" placeholder="Entrez votre mot de passe" class="col-12 mb-4" required>
+
+            <div class="text-center mb-5">
+                <button type="submit" >Login</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Séparation avec le footer -->
+    <div class="separator"></div>
+
+    <!-- Création d'un compte -->
+    <footer>
+        <p id="create_account" class="fixed-bottom m-auto col-10 col-12 pt-5 pb-1">Créer mon compte</p>
+    </footer>
 
 
 
